@@ -1,0 +1,14 @@
+[tools]
+node = "24"
+xcodegen = "latest"
+
+[settings]
+# Node ships pnpm through corepack, pinned by packageManager in package.json
+node.corepack = true
+
+[env]
+COREPACK_ENABLE_DOWNLOAD_PROMPT = 0
+_.path = ["{{config_root}}/node_modules/.bin"]
+
+[hooks]
+postinstall = "pnpm install"

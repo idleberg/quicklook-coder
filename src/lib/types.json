@@ -1,0 +1,156 @@
+[
+	"com.microsoft.typescript",
+	"com.netscape.javascript-source",
+	"dev.svelte",
+	"net.daringfireball.markdown",
+	"public.avchd-mpeg-2-transport-stream",
+	"public.bash-script",
+	"public.c-header",
+	"public.c-plus-plus-header",
+	"public.c-plus-plus-source",
+	"public.c-source",
+	"public.css",
+	"public.go-source",
+	"public.html",
+	"public.ini",
+	"public.json",
+	"public.mpeg-2-transport-stream",
+	"public.patch-file",
+	"public.python-script",
+	"public.rust-source",
+	"public.shell-script",
+	"public.sql",
+	"public.toml",
+	"public.tsx-source",
+	"public.yaml",
+	{
+		"id": "com.idleberg.DevPreview.cjs",
+		"description": "CommonJS Source",
+		"extensions": [
+			"cjs"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.dockerfile",
+		"description": "Dockerfile Source",
+		"extensions": [
+			"dockerfile"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.env",
+		"description": "dotenv Source",
+		"extensions": [
+			"env"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.gql",
+		"description": "GraphQL Source",
+		"extensions": [
+			"gql"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.graphql",
+		"description": "GraphQL Source",
+		"extensions": [
+			"graphql"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.http",
+		"description": "HTTP Request Source",
+		"extensions": [
+			"http"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.jsonc",
+		"description": "JSON with Comments Source",
+		"extensions": [
+			"jsonc"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.ps1",
+		"description": "PowerShell Source",
+		"extensions": [
+			"ps1"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.psd1",
+		"description": "PowerShell Data Source",
+		"extensions": [
+			"psd1"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.psm1",
+		"description": "PowerShell Module Source",
+		"extensions": [
+			"psm1"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.pyi",
+		"description": "Python Stub Source",
+		"extensions": [
+			"pyi"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.rest",
+		"description": "HTTP Request Source",
+		"extensions": [
+			"rest"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.DevPreview.sh-session",
+		"description": "Shell Session Source",
+		"extensions": [
+			"sh-session"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	}
+]

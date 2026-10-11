@@ -1,0 +1,2 @@
+minimumReleaseAgeExclude:
+  - quicklook-kit@0.3.0

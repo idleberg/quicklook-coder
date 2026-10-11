@@ -1,0 +1,14 @@
+node_modules/
+.quicklook/
+.DS_Store
+
+# Framework output and caches
+.svelte-kit/
+build/
+.astro/
+dist
+.output/
+.nitro/
+.vinxi/
+.nuxt/
+.angular/
