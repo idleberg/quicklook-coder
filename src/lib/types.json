@@ -24,7 +24,7 @@
 	"public.tsx-source",
 	"public.yaml",
 	{
-		"id": "com.idleberg.DevPreview.cjs",
+		"id": "com.idleberg.QuickLookDev.cjs",
 		"description": "CommonJS Source",
 		"extensions": [
 			"cjs"
@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.dockerfile",
+		"id": "com.idleberg.QuickLookDev.dockerfile",
 		"description": "Dockerfile Source",
 		"extensions": [
 			"dockerfile"
@@ -44,7 +44,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.env",
+		"id": "com.idleberg.QuickLookDev.env",
 		"description": "dotenv Source",
 		"extensions": [
 			"env"
@@ -54,7 +54,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.gql",
+		"id": "com.idleberg.QuickLookDev.gql",
 		"description": "GraphQL Source",
 		"extensions": [
 			"gql"
@@ -64,7 +64,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.graphql",
+		"id": "com.idleberg.QuickLookDev.graphql",
 		"description": "GraphQL Source",
 		"extensions": [
 			"graphql"
@@ -74,7 +74,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.http",
+		"id": "com.idleberg.QuickLookDev.http",
 		"description": "HTTP Request Source",
 		"extensions": [
 			"http"
@@ -84,7 +84,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.jsonc",
+		"id": "com.idleberg.QuickLookDev.jsonc",
 		"description": "JSON with Comments Source",
 		"extensions": [
 			"jsonc"
@@ -94,7 +94,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.ps1",
+		"id": "com.idleberg.QuickLookDev.ps1",
 		"description": "PowerShell Source",
 		"extensions": [
 			"ps1"
@@ -104,7 +104,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.psd1",
+		"id": "com.idleberg.QuickLookDev.psd1",
 		"description": "PowerShell Data Source",
 		"extensions": [
 			"psd1"
@@ -114,7 +114,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.psm1",
+		"id": "com.idleberg.QuickLookDev.psm1",
 		"description": "PowerShell Module Source",
 		"extensions": [
 			"psm1"
@@ -124,7 +124,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.pyi",
+		"id": "com.idleberg.QuickLookDev.pyi",
 		"description": "Python Stub Source",
 		"extensions": [
 			"pyi"
@@ -134,7 +134,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.rest",
+		"id": "com.idleberg.QuickLookDev.rest",
 		"description": "HTTP Request Source",
 		"extensions": [
 			"rest"
@@ -144,7 +144,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.DevPreview.sh-session",
+		"id": "com.idleberg.QuickLookDev.sh-session",
 		"description": "Shell Session Source",
 		"extensions": [
 			"sh-session"
