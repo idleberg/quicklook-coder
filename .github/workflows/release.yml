@@ -14,11 +14,17 @@ env:
 
 jobs:
   build:
-    runs-on: macos-15
+    runs-on: macos-26
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
 
-      - uses: jdx/mise-action@v2
+      - uses: actions/cache@55cc8345863c7cc4c66a329aec7e433d2d1c52a9 # v6.1.0
+        with:
+          path: ~/Library/pnpm/store
+          key: pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
+          restore-keys: pnpm-
+
+      - uses: jdx/mise-action@2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca # v5.1.1
 
       # Release builds are universal (arm64 + x86_64) by default.
       - run: pnpm install --frozen-lockfile && pnpm run build
@@ -38,7 +44,7 @@ jobs:
           shasum -a 256 "$zip" > SHA256SUMS
           echo "zip=$zip" >> "$GITHUB_OUTPUT"
 
-      - uses: softprops/action-gh-release@v2
+      - uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
           files: |
             ${{ steps.package.outputs.zip }}
