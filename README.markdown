@@ -10,7 +10,9 @@ Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and Svel
 brew install idleberg/asahi/quicklook-dev
 ```
 
-## Requirements
+## Development
+
+### Requirements
 
 - macOS 14 or later, with Xcode installed
 - [mise](https://mise.jdx.dev), which installs Node, pnpm and XcodeGen
@@ -20,11 +22,11 @@ mise trust
 mise install
 ```
 
-## Theme
+### Theme
 
 The preview uses Catppuccin Latte, and Mocha when the system is in dark mode. To change it, install another [twinkleplop theme](https://twinkleplop.pngwn.at/docs/themes) and update the imports in `src/lib/theme.css`.
 
-## Usage
+### Usage
 
 ```sh
 pnpm dev        # drop a file on the page to preview it
@@ -32,7 +34,7 @@ pnpm register   # build, install to /Applications and register with QuickLook
 pnpm unregister
 ```
 
-## Languages
+### Languages
 
 Every language [twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): Bash, C, C++, CSS, Diff, Dockerfile, dotenv, Go, GraphQL, HTML, HTTP, INI, JavaScript, JSON, JSONC, Markdown, PowerShell, Python, Rust, Shell session, SQL, Svelte, TOML, TSX, TypeScript and YAML.
 
