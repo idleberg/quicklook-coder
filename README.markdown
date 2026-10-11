@@ -4,6 +4,12 @@
 
 Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and SvelteKit.
 
+## Installation
+
+```sh
+brew install idleberg/asahi/quicklook-dev
+```
+
 ## Requirements
 
 - macOS 14 or later, with Xcode installed
