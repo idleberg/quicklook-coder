@@ -5,6 +5,8 @@ xcodegen = "latest"
 [settings]
 # Node ships pnpm through corepack, pinned by packageManager in package.json
 node.corepack = true
+# mise-action runs `install --locked` whenever mise.lock exists, which fails for aqua tools
+lockfile = false
 
 [env]
 COREPACK_ENABLE_DOWNLOAD_PROMPT = 0
