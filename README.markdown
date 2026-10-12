@@ -1,6 +1,6 @@
 # quicklook-coder
 
-> A macOS Quick Look plugin that highlights source code with [twinkleplop](https://twinkleplop.pngwn.at)
+> A macOS Quick Look plugin that highlights source code with [Twinkleplop](https://twinkleplop.pngwn.at)
 
 Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and SvelteKit.
 
@@ -24,7 +24,7 @@ mise install
 
 ### Theme
 
-The preview uses Catppuccin Latte, and Mocha when the system is in dark mode. To change it, install another [twinkleplop theme](https://twinkleplop.pngwn.at/docs/themes) and update the imports in `src/lib/theme.css`.
+The preview uses Catppuccin Latte, and Mocha when the system is in dark mode. To change it, install another [Twinkleplop theme](https://twinkleplop.pngwn.at/docs/themes) and update the imports in `src/lib/theme.css`.
 
 ### Usage
 
@@ -36,7 +36,7 @@ pnpm unregister
 
 ### Languages
 
-Every language [twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash, C, C++, CSS, Diff, Dockerfile, dotenv, Go, GraphQL, HTML, HTTP, INI, JavaScript, JSON, JSONC, Markdown, PowerShell, Python, Rust, Shell session, SQL, Svelte, TOML, TSX, TypeScript** and **YAML**.
+Every language [Twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash, C, C++, CSS, Diff, Dockerfile, dotenv, Go, GraphQL, HTML, HTTP, INI, JavaScript, JSON, JSONC, Markdown, PowerShell, Python, Rust, Shell session, SQL, Svelte, TOML, TSX, TypeScript** and **YAML**.
 
 Quick Look picks a preview by file extension, so files without one can't be claimed: a bare `.env` or `Dockerfile` keeps the system preview, while `production.env` or `app.dockerfile` get highlighted.
 
