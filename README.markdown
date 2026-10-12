@@ -54,7 +54,7 @@ node scripts/languages.ts
 
 ### Why Twinklepop?
 
-Popular highlighters like [Shiki](https://shiki.style/) or [Prism](https://prismjs.com/) might support more languages, but Twinkleplop is an order of magnitude faster. Quick Look previews should feel instant, and with Twinkleplop most source files appear almost as soon as you press space; very large files take a bit longer.
+Popular highlighters like [Shiki](https://shiki.style/) or [Prism](https://prismjs.com/) might support more languages, but Twinkleplop is an order of magnitude faster. Quick Look previews should feel instant, and with Twinkleplop most source files appear almost as soon as you press space; extremely large files may take longer.
 
 ## License
 
