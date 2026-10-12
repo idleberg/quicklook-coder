@@ -1,6 +1,6 @@
 <script lang="ts">
 	import { browserFile, nativeFile, type QuickLookFile } from 'virtual:quicklook';
-	import FileViewer from '$lib/FileViewer.svelte';
+	import FileViewer from '../lib/FileViewer.svelte';
 
 	let file = $state<QuickLookFile | undefined>(nativeFile());
 
