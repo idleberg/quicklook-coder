@@ -36,7 +36,7 @@ pnpm unregister
 
 ### Languages
 
-Every language [twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): Bash, C, C++, CSS, Diff, Dockerfile, dotenv, Go, GraphQL, HTML, HTTP, INI, JavaScript, JSON, JSONC, Markdown, PowerShell, Python, Rust, Shell session, SQL, Svelte, TOML, TSX, TypeScript and YAML.
+Every language [twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash, C, C++, CSS, Diff, Dockerfile, dotenv, Go, GraphQL, HTML, HTTP, INI, JavaScript, JSON, JSONC, Markdown, PowerShell, Python, Rust, Shell session, SQL, Svelte, TOML, TSX, TypeScript** and **YAML**.
 
 QuickLook picks a preview by file extension, so files without one can't be claimed: a bare `.env` or `Dockerfile` keeps the system preview, while `production.env` or `app.dockerfile` get highlighted.
 
