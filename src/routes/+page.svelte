@@ -12,7 +12,7 @@
 	}
 </script>
 
-<!-- Only reachable in the browser: QuickLook always injects a file. -->
+<!-- Only reachable in the browser: Quick Look always injects a file. -->
 <svelte:window
 	ondragover={(e) => e.preventDefault()}
 	ondrop={(e) => {

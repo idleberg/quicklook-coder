@@ -1,5 +1,5 @@
 {
-	"name": "quicklook-dev",
+	"name": "quicklook-coder",
 	"private": true,
 	"description": "Quick Look plugin for developers, highlights languages supported by Twinklepop",
 	"type": "module",

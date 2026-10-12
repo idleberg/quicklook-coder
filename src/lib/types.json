@@ -24,7 +24,7 @@
 	"public.tsx-source",
 	"public.yaml",
 	{
-		"id": "com.idleberg.QuickLookDev.cjs",
+		"id": "com.idleberg.QuickLookCoder.cjs",
 		"description": "CommonJS Source",
 		"extensions": [
 			"cjs"
@@ -34,7 +34,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.dockerfile",
+		"id": "com.idleberg.QuickLookCoder.dockerfile",
 		"description": "Dockerfile Source",
 		"extensions": [
 			"dockerfile"
@@ -44,7 +44,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.env",
+		"id": "com.idleberg.QuickLookCoder.env",
 		"description": "dotenv Source",
 		"extensions": [
 			"env"
@@ -54,7 +54,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.gql",
+		"id": "com.idleberg.QuickLookCoder.gql",
 		"description": "GraphQL Source",
 		"extensions": [
 			"gql"
@@ -64,7 +64,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.graphql",
+		"id": "com.idleberg.QuickLookCoder.graphql",
 		"description": "GraphQL Source",
 		"extensions": [
 			"graphql"
@@ -74,7 +74,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.http",
+		"id": "com.idleberg.QuickLookCoder.http",
 		"description": "HTTP Request Source",
 		"extensions": [
 			"http"
@@ -84,7 +84,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.jsonc",
+		"id": "com.idleberg.QuickLookCoder.jsonc",
 		"description": "JSON with Comments Source",
 		"extensions": [
 			"jsonc"
@@ -94,7 +94,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.ps1",
+		"id": "com.idleberg.QuickLookCoder.ps1",
 		"description": "PowerShell Source",
 		"extensions": [
 			"ps1"
@@ -104,7 +104,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.psd1",
+		"id": "com.idleberg.QuickLookCoder.psd1",
 		"description": "PowerShell Data Source",
 		"extensions": [
 			"psd1"
@@ -114,7 +114,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.psm1",
+		"id": "com.idleberg.QuickLookCoder.psm1",
 		"description": "PowerShell Module Source",
 		"extensions": [
 			"psm1"
@@ -124,7 +124,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.pyi",
+		"id": "com.idleberg.QuickLookCoder.pyi",
 		"description": "Python Stub Source",
 		"extensions": [
 			"pyi"
@@ -134,7 +134,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.rest",
+		"id": "com.idleberg.QuickLookCoder.rest",
 		"description": "HTTP Request Source",
 		"extensions": [
 			"rest"
@@ -144,7 +144,7 @@
 		]
 	},
 	{
-		"id": "com.idleberg.QuickLookDev.sh-session",
+		"id": "com.idleberg.QuickLookCoder.sh-session",
 		"description": "Shell Session Source",
 		"extensions": [
 			"sh-session"

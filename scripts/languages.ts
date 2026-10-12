@@ -4,7 +4,7 @@ import { execFileSync } from 'node:child_process';
 import { writeFileSync } from 'node:fs';
 import { extensions } from '../src/lib/languages.ts';
 
-const bundleId = 'com.idleberg.QuickLookDev';
+const bundleId = 'com.idleberg.QuickLookCoder';
 // Claiming these would make the preview the fallback for every text file.
 const abstractTypes = new Set([
 	'public.text',
