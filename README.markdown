@@ -6,9 +6,14 @@ Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and Svel
 
 ## Installation
 
+The easiest way to install the plugin is via my own Homebrew tap:
+
 ```sh
 brew install idleberg/asahi/quicklook-coder
 ```
+
+> [!IMPORTANT]
+> You need to launch `Quick Look Coder.app` once after installation, this registers the plugin.
 
 ## Development
 
