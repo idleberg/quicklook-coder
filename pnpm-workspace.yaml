@@ -1,5 +1,2 @@
 minimumReleaseAgeExclude:
   - quicklook-kit
-# Temporary: the local kit while settings are in development. Remove before shipping.
-overrides:
-  quicklook-kit: link:../quicklook-kit/packages/quicklook-kit

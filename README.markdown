@@ -15,6 +15,12 @@ brew install idleberg/asahi/quicklook-coder
 > [!IMPORTANT]
 > To register the plugin, you need to launch `Quick Look Coder.app` once after installation.
 
+## Themes
+
+Pick a light and a dark theme in the app's Settings tab. The preview follows the system appearance and defaults to Catppuccin. Changes apply to the next preview.
+
+Available themes: **Atom One**, **Ayu**, **Catppuccin**, **GitHub**, **Material**, **Night Owl**, **Rosé Pine** and **Solarized**.
+
 ## Development
 
 ### Requirements
@@ -26,10 +32,6 @@ brew install idleberg/asahi/quicklook-coder
 mise trust
 mise install
 ```
-
-### Theme
-
-The preview uses Catppuccin Latte, and Mocha when the system is in dark mode. To change it, install another [Twinkleplop theme](https://twinkleplop.pngwn.at/docs/themes) and update the imports in `src/lib/theme.css`.
 
 ### Usage
 
