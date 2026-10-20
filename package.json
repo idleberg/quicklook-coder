@@ -12,7 +12,7 @@
 	},
 	"devDependencies": {
 		"@sveltejs/adapter-static": "4.0.0",
-		"@sveltejs/kit": "3.0.1",
+		"@sveltejs/kit": "3.1.0",
 		"@sveltejs/vite-plugin-svelte": "7.3.1",
 		"@twinkleplop/bash": "^0.1.7",
 		"@twinkleplop/c": "^0.2.1",
@@ -48,11 +48,11 @@
 		"@twinkleplop/tsx": "^0.1.7",
 		"@twinkleplop/typescript": "^0.1.7",
 		"@twinkleplop/yaml": "^0.1.7",
-		"quicklook-kit": "^0.5.0",
-		"svelte": "5.57.1",
-		"svelte-check": "4.7.6",
+		"quicklook-kit": "^0.6.0",
+		"svelte": "5.57.2",
+		"svelte-check": "4.7.7",
 		"typescript": "6.0.3",
-		"vite": "8.3.0"
+		"vite": "8.3.4"
 	},
-	"packageManager": "pnpm@12.12.1+sha512.b7f98934c0b1f29a65f5da52f2d7f994e7faad573ffdddea1497fb4dcb5aec051590ee7c7d95a38172b4bfae103a5b83edf2ee866e11731c2cafa96063610ac5"
+	"packageManager": "pnpm@12.14.0+sha512.c18ba6d87993d3d164cb5e8948f32b2c06ee854487e06cd8d86781342fb3e5bb4634367034711e86802baa9c37bea906ce1929ad08d70884c97d801df13389a6"
 }
