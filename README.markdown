@@ -6,9 +6,14 @@ Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and Svel
 
 ## Installation
 
+The easiest way to install the plugin is via my own Homebrew tap:
+
 ```sh
 brew install idleberg/asahi/quicklook-coder
 ```
+
+> [!IMPORTANT]
+> To register the plugin, you need to launch `Quick Look Coder.app` once after installation.
 
 ## Development
 
@@ -36,7 +41,7 @@ pnpm unregister
 
 ### Languages
 
-Every language [Twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash, C, C++, CSS, Diff, Dockerfile, dotenv, Go, GraphQL, HTML, HTTP, INI, JavaScript, JSON, JSONC, Markdown, PowerShell, Python, Rust, Shell session, SQL, Svelte, TOML, TSX, TypeScript** and **YAML**.
+Every language [Twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash**, **C**, **C++**, **CSS**, **Diff**, **Dockerfile**, **dotenv**, **Go**, **GraphQL**, **HTML**, **HTTP**, **INI**, **JavaScript**, **JSON**, **JSONC**, **Markdown**, **PowerShell**, **Python**, **Rust**, **Shell session**, **SQL**, **Svelte**, **TOML**, **TSX**, **TypeScript** and **YAML**.
 
 Quick Look picks a preview by file extension, so files without one can't be claimed: a bare `.env` or `Dockerfile` keeps the system preview, while `production.env` or `app.dockerfile` get highlighted.
 
