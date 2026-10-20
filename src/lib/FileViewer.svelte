@@ -6,7 +6,10 @@
 -->
 <script lang="ts" module>
 	import { extensions } from './languages.ts';
-	import './theme.css';
+	import { themeCss } from './themes.ts';
+
+	// The page's CSP allows inline styles.
+	const theme = `<style>${themeCss()}</style>`;
 </script>
 
 <script lang="ts">
@@ -23,6 +26,8 @@
 	);
 	const highlight = $derived(extensions[file.extension]?.());
 </script>
+
+<svelte:head>{@html theme}</svelte:head>
 
 {#if video}
 	<pre class="twinkleplop">This looks like an MPEG transport stream video, not TypeScript.</pre>
