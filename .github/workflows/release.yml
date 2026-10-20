@@ -24,7 +24,7 @@ jobs:
           key: pnpm-${{ hashFiles('**/pnpm-lock.yaml') }}
           restore-keys: pnpm-
 
-      - uses: jdx/mise-action@2d8d4cafcbd33be2ea37d2b6f5ad595363d1f1ca # v5.1.1
+      - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
 
       # Release builds are universal (arm64 + x86_64) by default.
       - run: pnpm install --frozen-lockfile && pnpm run build
