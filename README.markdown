@@ -13,7 +13,7 @@ brew install idleberg/asahi/quicklook-coder
 ```
 
 > [!IMPORTANT]
-> To register the plugin, you need to launch `Quick Look Coder.app` once after installation.
+> To register the plugin, you need to launch `Quick Look Coder.app` once after installation. The app is signed ad hoc, so you have to allow it in System Settings → Privacy & Security on first launch.
 
 ## Themes
 
