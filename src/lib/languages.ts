@@ -28,7 +28,10 @@ import { language as tsx } from '@twinkleplop/tsx';
 import { language as typescript } from '@twinkleplop/typescript';
 import { language as yaml } from '@twinkleplop/yaml';
 
-export const extensions: Record<string, () => (input: string) => string> = {
+export const extensions: Record<
+	string,
+	() => (input: string, render?: { line_numbers?: boolean }) => string
+> = {
 	bash,
 	c,
 	'c++': cpp,

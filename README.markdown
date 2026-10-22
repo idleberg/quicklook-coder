@@ -21,6 +21,8 @@ Pick a light and a dark theme in the app's Settings tab. The preview follows the
 
 Available themes: **Atom One**, **Ayu**, **Catppuccin**, **GitHub**, **Material**, **Night Owl**, **Rosé Pine** and **Solarized**.
 
+Line numbers can be turned on in the same tab.
+
 ## Development
 
 ### Requirements

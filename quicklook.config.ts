@@ -27,5 +27,6 @@ export default defineConfig({
 	settings: {
 		lightTheme: theme(true),
 		darkTheme: theme(false),
+		lineNumbers: { type: 'boolean', default: false, title: 'Show Line Numbers' },
 	},
 });
