@@ -1,4 +1,5 @@
 [tools]
+dotnet = "10"
 node = "24"
 xcodegen = "latest"
 

@@ -26,27 +26,24 @@ jobs:
 
       - uses: jdx/mise-action@fc42bcc7ddbf51124c30f95a877a0c5168a3bfde # v5.2.1
 
-      # Release builds are universal (arm64 + x86_64) by default.
+      # Builds the macOS app, universal (arm64 + x86_64) by default, and the Windows plugin.
       - run: pnpm install --frozen-lockfile && pnpm run build
         working-directory: ${{ env.PROJECT }}
         env:
           VERSION: ${{ github.ref_name }}
 
-      - name: Package app
-        id: package
+      # Quick-Look-Coder-<tag>-macos.zip and Quick-Look-Coder-<tag>-windows.qlplugin
+      - name: Package
         run: |
-          cd "$PROJECT/.quicklook/build/macos"
-          app=$(ls -d *.app)
-          zip="${app%.app}"
-          zip="${zip// /-}-${GITHUB_REF_NAME}-macos.zip"
-          zip -r -9 -y "$GITHUB_WORKSPACE/$zip" "$app"
-          cd "$GITHUB_WORKSPACE"
-          shasum -a 256 "$zip" > SHA256SUMS
-          echo "zip=$zip" >> "$GITHUB_OUTPUT"
+          mkdir release
+          cd "$PROJECT/.quicklook/build"
+          app=$(basename macos/*.app .app)
+          (cd macos && zip -r -9 -y "$GITHUB_WORKSPACE/release/${app// /-}-$GITHUB_REF_NAME-macos.zip" "$app.app")
+          cp windows/*.qlplugin "$GITHUB_WORKSPACE/release/${app// /-}-$GITHUB_REF_NAME-windows.qlplugin"
+          cd "$GITHUB_WORKSPACE/release"
+          shasum -a 256 * > SHA256SUMS
 
       - uses: softprops/action-gh-release@efb35369e0ad2afab669f228072c1b0d510eae64 # v3.0.3
         with:
-          files: |
-            ${{ steps.package.outputs.zip }}
-            SHA256SUMS
+          files: release/*
           generate_release_notes: true

@@ -6,6 +6,8 @@ Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and Svel
 
 ## Installation
 
+### macOS
+
 The easiest way to install the plugin is via my own Homebrew tap:
 
 ```sh
@@ -14,6 +16,10 @@ brew install idleberg/asahi/quicklook-coder
 
 > [!IMPORTANT]
 > To register the plugin, you need to launch `Quick Look Coder.app` once after installation. The app is signed ad hoc, so you have to allow it in System Settings → Privacy & Security on first launch.
+
+### Windows
+
+Download the latest `*-windows.qlplugin` from the [releases](https://github.com/idleberg/quicklook-coder/releases), select it in Explorer and press <kbd>Space</kbd> to preview it in QuickLook, then click the install button and restart QuickLook. The preview needs the Microsoft Edge WebView2 Runtime, which ships with Windows 11.
 
 ## Themes
 
