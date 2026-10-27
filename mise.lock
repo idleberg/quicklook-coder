@@ -2,6 +2,11 @@
 
 lockfile_version = 3
 
+[[tools.dotnet]]
+version = "10.0.402"
+backend = "core:dotnet"
+specifiers = ["10"]
+
 [[tools.node]]
 version = "24.20.0"
 backend = "core:node"
