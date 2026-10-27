@@ -1,5 +1,8 @@
 # quicklook-coder
 
+[![Build](https://img.shields.io/github/actions/workflow/status/idleberg/quicklook-coder/ci.yml?style=for-the-badge)](https://github.com/idleberg/quicklook-coder/actions)
+[![Version](https://img.shields.io/github/v/release/idleberg/quicklook-coder?style=for-the-badge)](https://github.com/idleberg/quicklook-coder/releases)
+
 > A macOS Quick Look plugin that highlights source code with [Twinkleplop](https://twinkleplop.pngwn.at)
 
 Built with [quicklook-kit](https://www.npmjs.com/package/quicklook-kit) and SvelteKit.
