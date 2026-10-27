@@ -26,6 +26,8 @@ const names: Record<string, string> = {
 	graphql: 'GraphQL',
 	http: 'HTTP Request',
 	jsonc: 'JSON with Comments',
+	nsh: 'NSIS Header',
+	nsi: 'NSIS Script',
 	ps1: 'PowerShell',
 	psd1: 'PowerShell Data',
 	psm1: 'PowerShell Module',

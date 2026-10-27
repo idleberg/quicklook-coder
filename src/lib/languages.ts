@@ -17,6 +17,7 @@ import { language as javascript } from '@twinkleplop/javascript';
 import { language as json } from '@twinkleplop/json';
 import { language as jsonc } from '@twinkleplop/jsonc';
 import { language as markdown } from '@twinkleplop/markdown';
+import { language as nsis } from '@nsis/twinkleplop';
 import { language as powershell } from '@twinkleplop/powershell';
 import { language as python } from '@twinkleplop/python';
 import { language as rust } from '@twinkleplop/rust';
@@ -63,6 +64,8 @@ export const extensions: Record<
 	md: markdown,
 	mjs: javascript,
 	mts: typescript,
+  nsh: nsis,
+  nsi: nsis,
 	patch: diff,
 	ps1: powershell,
 	psd1: powershell,

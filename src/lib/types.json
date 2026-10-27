@@ -94,6 +94,26 @@
 		]
 	},
 	{
+		"id": "com.idleberg.QuickLookCoder.nsh",
+		"description": "NSIS Header Source",
+		"extensions": [
+			"nsh"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
+		"id": "com.idleberg.QuickLookCoder.nsi",
+		"description": "NSIS Script Source",
+		"extensions": [
+			"nsi"
+		],
+		"conformsTo": [
+			"public.source-code"
+		]
+	},
+	{
 		"id": "com.idleberg.QuickLookCoder.ps1",
 		"description": "PowerShell Source",
 		"extensions": [
