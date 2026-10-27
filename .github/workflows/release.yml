@@ -35,10 +35,10 @@ jobs:
       - name: Package app
         id: package
         run: |
-          cd "$PROJECT/.quicklook/build"
+          cd "$PROJECT/.quicklook/build/macos"
           app=$(ls -d *.app)
           zip="${app%.app}"
-          zip="${zip// /-}-${GITHUB_REF_NAME}.zip"
+          zip="${zip// /-}-${GITHUB_REF_NAME}-macos.zip"
           zip -r -9 -y "$GITHUB_WORKSPACE/$zip" "$app"
           cd "$GITHUB_WORKSPACE"
           shasum -a 256 "$zip" > SHA256SUMS

@@ -1,2 +1,3 @@
 minimumReleaseAgeExclude:
   - quicklook-kit
+  - '@nsis/twinkleplop@0.1.0'
