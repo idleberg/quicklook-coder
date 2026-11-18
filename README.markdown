@@ -54,7 +54,7 @@ pnpm unregister
 
 ### Languages
 
-Every language [Twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash**, **C**, **C++**, **CSS**, **Diff**, **Dockerfile**, **dotenv**, **Go**, **GraphQL**, **HTML**, **HTTP**, **INI**, **JavaScript**, **JSON**, **JSONC**, **Markdown**, **PowerShell**, **Python**, **Rust**, **Shell session**, **SQL**, **Svelte**, **TOML**, **TSX**, **TypeScript** and **YAML**.
+Every language [Twinkleplop ships](https://twinkleplop.pngwn.at/docs/languages-ref): **Bash**, **C**, **C++**, **CSS**, **Diff**, **Dockerfile**, **dotenv**, **Go**, **GraphQL**, **HTML**, **HTTP**, **INI**, **JavaScript**, **JSON**, **JSONC**, **Markdown**, **PowerShell**, **Python**, **Rust**, **Shell session**, **SQL**, **Svelte**, **TOML**, **TSX**, **TypeScript** and **YAML**. **NSIS** is the only unofficial language supported by the plugin.
 
 Quick Look picks a preview by file extension, so files without one can't be claimed: a bare `.env` or `Dockerfile` keeps the system preview, while `production.env` or `app.dockerfile` get highlighted.
 
